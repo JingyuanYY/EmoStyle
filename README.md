@@ -13,7 +13,7 @@ emotional responses. It requires only emotion words as prompts, eliminating the 
 
 
 ## Preliminary
-You can download the pretrained EmoStyle models and EmoStyleSet from [here](https://drive.google.com/).
+You can download the pretrained EmoStyle models from [here](https://huggingface.co/lilwhit3/EmoStyle).
 
 <p align="left">
 <img src="docs/method-1.png" width="1200px"/>  
