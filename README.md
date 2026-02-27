@@ -128,3 +128,11 @@ Fig 6. EmoStyle can be extended to emotion-aware text-to-image generation, produ
 
 ## Citation
 If you find this work useful, please kindly cite our paper:
+```
+@article{yang2025emostyle,
+  title={EmoStyle: Emotion-Driven Image Stylization},
+  author={Yang, Jingyuan and Bai, Zihuan and Huang, Hui},
+  journal={arXiv preprint arXiv:2512.05478},
+  year={2025}
+}
+```
