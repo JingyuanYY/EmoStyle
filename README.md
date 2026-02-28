@@ -1,8 +1,9 @@
 # EmoStyle: Emotion-Driven Image Stylization (CVPR 2026)
-> [Jingyuan Yang](https://jingyuanyy.github.io/)<sup>1</sup>, Zihuan Bai<sup>1</sup>, [Hui Huang](https://vcc.tech/~huihuang)<sup>1</sup><sup>*</sup>  
-> <sup>1</sup>Shenzhen University<br>
+> [Jingyuan Yang](https://jingyuanyy.github.io/), Zihuan Bai, [Hui Huang](https://vcc.tech/~huihuang)<sup>*</sup>  
+> Shenzhen University<br>
 > Affective Image Stylization (AIS) aims to stylize user-input images to match the desired emotion. This task is inherently challenging due to the complex mapping between emotions and visual styles to evoke the desired emotional response.
 
+<a href="https://arxiv.org/abs/2512.05478"><img src="https://img.shields.io/badge/arXiv-2512.05478-b31b1b.svg" height=22.5></a>
 
 <p align="left">
 <img src="docs/teaser.png" width="1200px"/>  
