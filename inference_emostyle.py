@@ -63,7 +63,6 @@ class InferenceArgs:
     emotion: str = "amusement"
     save_path: str = None
     mapper_ckpt: str = None
-    dict_ckpt: str = None
     only_lora: bool = True
     concat_refs: bool = False
     lora_rank: int = 128
@@ -123,7 +122,6 @@ def main(args: InferenceArgs):
         transformer_layers=args.transformer_layers,
     )
     mapper.load_state_dict(torch.load(args.mapper_ckpt, map_location="cpu"))
-    mapper.StyleDictionary.load_state_dict(torch.load(args.dict_ckpt, map_location="cpu"))
     mapper = mapper.to(accelerator.device).to(next(pipeline.model.parameters()).dtype)
     mapper.eval()
 
